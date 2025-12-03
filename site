@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EcoLuxuryClean</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: #000;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        padding: 40px 10px;
+    }
+
+    .container {
+        max-width: 520px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo {
+        width: 180px;
+        height: auto;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        margin-top: 5px;
+        font-size: 28px;
+        letter-spacing: 1px;
+        font-weight: 700;
+    }
+
+    .services-title {
+        margin-top: 35px;
+        font-size: 22px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .box {
+        background: #111;
+        border: 1px solid #333;
+        padding: 15px;
+        border-radius: 10px;
+        margin: 10px 0;
+        text-align: left;
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .button {
+        display: block;
+        width: 100%;
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 18px;
+        text-decoration: none;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+
+    .btn-whatsapp {
+        background: #25D366;
+        color: #000;
+    }
+
+    .btn-instagram {
+        background: #fff;
+        color: #000;
+    }
+
+    .social-label {
+        margin-top: 6px;
+        font-size: 16px;
+        opacity: 0.8;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- LOGO -->
+    <img class="logo" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAASABIAAD/4QCMRXhpZgAATU0AKgAAAAgABQESAAMAAAA...AAAAABIAAAAAQAAAEgAAAABAAOgAQADAAAAAf//AACgAgAEAAAAAQAABgCgAwAE" alt="Logo">
+
+    <h1>EcoLuxuryClean</h1>
+
+    <h2 class="services-title">Services</h2>
+
+    <!-- LISTA EM CAIXAS -->
+    <div class="box">🏠 <b>Home Organisation</b></div>
+    <div class="box">Decluttering Rooms (Bedrooms, Living Room, etc.)</div>
+    <div class="box">Wardrobe & Closet Organisation</div>
+    <div class="box">Pantry & Kitchen Organisation</div>
+    <div class="box">Garage & Storage Area Organisation</div>
+    <div class="box">Bathroom Organisation</div>
+    <div class="box">Laundry Room Setup</div>
+    <div class="box">Kids’ Toys & Playroom Organisation</div>
+    <div class="box">Home Office Setup</div>
+    <div class="box"><b>Residential Cleaning Services</b></div>
+    <div class="box">Regular Cleaning (Weekly / Fortnightly)</div>
+    <div class="box">Deep Cleaning</div>
+    <div class="box">Spring Cleaning</div>
+    <div class="box">Post-Renovation Cleaning</div>
+    <div class="box">Window Cleaning</div>
+
+    <!-- BOTÕES -->
+    <a class="button btn-whatsapp" href="https://wa.me/61452380489" target="_blank">
+        💬 Contact via WhatsApp
+    </a>
+
+    <a class="button btn-instagram" href="https://instagram.com/ecoluxuryclean_" target="_blank">
+        📷 Instagram
+    </a>
+
+    <div class="social-label">@ecoluxuryclean_</div>
+
+</div>
+
+</body>
+</html>
